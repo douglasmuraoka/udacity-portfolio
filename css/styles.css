@@ -1,0 +1,8 @@
+/* While dev */
+* {
+	border: 1px solid red;
+}
+
+img, embed, object, video {
+	max-width: 100%;
+}
