@@ -6,3 +6,14 @@
 img, embed, object, video {
 	max-width: 100%;
 }
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	text-align: right;
+	align-items: center;
+}
+
+.work {
+	text-align: center;
+}
