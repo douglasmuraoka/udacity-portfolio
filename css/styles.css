@@ -23,8 +23,12 @@ body {
 	text-transform: uppercase;
 }
 
+.header .logo {
+	max-width: 40%;
+}
+
 .header .name {
-	font: 38px 'Roboto', sans-serif;
+	font: 36px 'Roboto', sans-serif;
 	margin: 2px 0;
 }
 
@@ -67,4 +71,18 @@ body {
 
 .work .projects-container .link {
 	margin: 5px 0 20px 0;
+}
+
+.work a {
+	padding: 24px 0;
+}
+
+/* Footer */
+footer {
+	text-align: center;
+	font-size: 12px;
+}
+
+footer .img-src {
+	font: bold 13px 'Numans', sans-serif;
 }
