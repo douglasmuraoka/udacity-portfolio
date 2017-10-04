@@ -9,6 +9,7 @@ img, embed, object, video {
 }
 
 body {
+	box-sizing: border-box;
 	color: #2d3c49;
 	margin: 5px;
 }
