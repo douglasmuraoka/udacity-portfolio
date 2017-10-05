@@ -1,3 +1,5 @@
+/* Major Breakpoints */
+
 /* Tablet and Desktop */
 @media screen and (min-width: 360px){
 	/* Header */
@@ -12,6 +14,11 @@
 	/* Separator */
 	.separator {
 		border: 4px solid #7d97ad;
+	}
+
+	/* Featured Work */
+	.work .projects-container .link {
+		margin: 20px;
 	}
 }
 
@@ -32,13 +39,10 @@
 	}
 
 	/* Featured Work */
-	.work img {
-		max-width: 50%;
-	}
-
 	.work .project {
 		display: flex;
 		align-items: center;
+		justify-content: center;
 	}
 
 	.work .project-info {
@@ -49,20 +53,9 @@
 		order: -1;
 	}
 
-	.work .projects-container .title {
-		font-size: 36px;
-	}
-
-	.work .section-title {
-		font-size: 40px;
-	}
-
-	.work .projects-container .link {
-		margin: 20px;
-	}
-
 	.work a {
-		padding: 24px;
+		padding: 24px 0;
+		word-wrap: break-word;
 	}
 
 	/* Footer */
@@ -126,5 +119,39 @@
 
 	footer .img-src {
 		font: bold 16px 'Numans', sans-serif;
+	}
+}
+
+/* Minor Breakpoints */
+@media screen and (min-width: 361px) and (max-width: 550px) {
+	/* Featured Work */
+	.work .projects-container .title {
+		font-size: 20px;
+	}
+
+	.work .section-title {
+		font-size: 32px;
+	}
+}
+
+@media screen and (min-width: 551px) and (max-width: 768px) {
+	/* Featured Work */
+	.work .projects-container .title {
+		font-size: 32px;
+	}
+
+	.work .section-title {
+		font-size: 36px;
+	}
+}
+
+@media screen and (min-width: 769px) {
+	/* Featured Work */
+	.work .projects-container .title {
+		font-size: 36px;
+	}
+
+	.work .section-title {
+		font-size: 40px;
 	}
 }
