@@ -29,7 +29,7 @@
 			<source media="(min-width:769px)" srcset="img/portfolio-main-full.jpg">
 			<source media="(min-width:361px) and (max-width:768px)" srcset="img/portfolio-main-medium_2x.jpg 2x, img/portfolio-main-medium.jpg">
 			<source media="(max-width:360px)" srcset="img/portfolio-main-small_3x.jpg 3x, img/portfolio-main-small_2x.jpg 2x, img/portfolio-main-small.jpg">
-			<img src="img/portfolio-main-full.jpg" srcset="img/portfolio-main-small.jpg 360w, img/portfolio-main-medium.jpg 768w, img/portfolio-main-small_3x.jpg 960w" />
+			<img src="img/portfolio-main-full.jpg" srcset="img/portfolio-main-small.jpg 360w, img/portfolio-main-medium.jpg 768w, img/portfolio-main-small_3x.jpg 960w" sizes="100vw" />
 		</picture>
 	</section>
 
@@ -38,11 +38,11 @@
 		<header>
 			<h1 class="section-title">Featured Work</h1>
 		</header>
-		<section class="projects-container">
+		<div class="projects-container">
 			<article class="project">
 				<picture>
 					<source media="(min-width:361px)" srcset="img/meds-clock-full_2x.jpg 2x, img/meds-clock-full.jpg">
-					<source srcset="img/meds-clock-small_3x.jpg 3x, img/meds-clock-small_2x.jpg 2x, img/meds-clock-small.jpg">
+					<source srcset="img/meds-clock-small_3x.jpg 3x, img/meds-clock-small_2x.jpg 2x, img/meds-clock-small.jpg" type="image/jpeg">
 					<img src="img/meds-clock-full.jpg" srcset="img/meds-clock-small.jpg 360w, img/meds-clock-small_2x.jpg 720w, img/meds-clock-small_3x.jpg 960w" sizes="(max-width:360px) 100vw, (min-width:960px) 33vw, 50vw" alt="Full-Stack Development for Health Industry" />
 				</picture>
 				<div class="project-info">
@@ -56,7 +56,7 @@
 			<article class="project odd">
 				<picture>
 					<source media="(min-width: 361px)" srcset="img/brain-full_2x.jpg 2x, img/brain-full.jpg">
-					<source srcset="img/brain-small_3x.jpg 3x, img/brain-small_2x.jpg 2x, img/brain-small.jpg">
+					<source srcset="img/brain-small_3x.jpg 3x, img/brain-small_2x.jpg 2x, img/brain-small.jpg" type="image/jpeg">
 					<img src="img/brain-full.jpg" srcset="img/brain-small.jpg 360w, img/brain-small_2x.jpg 720w, img/brain-small_3x.jpg 960w" sizes="(max-width:360px) 100vw, (min-width:960px) 33vw, 50vw" alt="Machine Learning" />
 				</picture>
 				<div class="project-info">
@@ -70,7 +70,7 @@
 			<article class="project">
 				<picture>
 					<source media="(min-width:361px)" srcset="img/report-full_2x.jpg 2x, img/report-full.jpg">
-					<source srcset="img/report-small_3x.jpg 3x, img/report-small_2x.jpg 2x, img/report-small.jpg">
+					<source srcset="img/report-small_3x.jpg 3x, img/report-small_2x.jpg 2x, img/report-small.jpg" type="image/jpeg">
 					<img src="img/report-full.jpg" srcset="img/report-small.jpg 360w, img/report-small_2x.jpg 720w, img/report-small_3x.jpg 960w" sizes="(max-width:360px) 100vw, (min-width:960px) 33vw, 50vw" alt="Data Science" />
 				</picture>
 				<div class="project-info">
@@ -80,7 +80,7 @@
 					</p>
 				</div>
 			</article>
-		</section>
+		</div>
 	</section>
 
 	<!-- Separator -->
